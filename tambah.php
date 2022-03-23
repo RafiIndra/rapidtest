@@ -21,6 +21,6 @@ function tampilkanFormulirTambahPeserta(){
 }
 
 function kirimKeHalamanUtama($pesan){
-    header("Location: /rapidtest/indeks.php?pesan=$pesan");
+    header("Location: indeks.php?pesan=$pesan");
 }
 
